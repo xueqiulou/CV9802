@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="el6-7U-iDR">
+                                <rect key="frame" x="50" y="240" width="275" height="64"/>
+                                <color key="backgroundColor" red="0.35686274509803922" green="0.72941176470588232" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="el6-7U-iDR" secondAttribute="height" multiplier="275:64" id="T6O-ew-un2"/>
+                                </constraints>
+                                <state key="normal" title="30 seconds"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJn-1N-qZ3">
+                                <rect key="frame" x="50" y="404" width="275" height="64"/>
+                                <color key="backgroundColor" red="0.35686274509999999" green="0.72941176470000002" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="60 seconds"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Cj-Zb-9VX">
+                                <rect key="frame" x="166" y="120" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="el6-7U-iDR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="5Op-cq-1qa"/>
+                            <constraint firstItem="el6-7U-iDR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gaw-qf-hwP"/>
+                            <constraint firstItem="iJn-1N-qZ3" firstAttribute="top" secondItem="el6-7U-iDR" secondAttribute="bottom" constant="100" id="Hfx-lO-RAV"/>
+                            <constraint firstItem="6Cj-Zb-9VX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="V1q-aO-8uQ"/>
+                            <constraint firstItem="6Cj-Zb-9VX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="YIe-nC-89Y"/>
+                            <constraint firstItem="el6-7U-iDR" firstAttribute="top" secondItem="6Cj-Zb-9VX" secondAttribute="top" constant="120" id="cWr-qL-Q1p"/>
+                            <constraint firstItem="iJn-1N-qZ3" firstAttribute="centerX" secondItem="el6-7U-iDR" secondAttribute="centerX" id="eAL-FW-NmP"/>
+                            <constraint firstItem="iJn-1N-qZ3" firstAttribute="height" secondItem="el6-7U-iDR" secondAttribute="height" id="weF-PE-jO9"/>
+                            <constraint firstItem="iJn-1N-qZ3" firstAttribute="width" secondItem="el6-7U-iDR" secondAttribute="width" id="yZc-nQ-V0U"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="mode30sB" destination="el6-7U-iDR" id="EPS-wo-M1H"/>
+                        <outlet property="mode60sB" destination="iJn-1N-qZ3" id="xMx-wK-pNN"/>
+                        <outlet property="titleL" destination="6Cj-Zb-9VX" id="pN9-zz-DUS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-172" y="131"/>
+        </scene>
+        <!--Gaming View Controller-->
+        <scene sceneID="n8u-Nf-f63">
+            <objects>
+                <viewController id="Gam-ls-aDA" customClass="XQLGamingViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9ft-tc-NZN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uSG-3E-ql1">
+                                <rect key="frame" x="67" y="213.5" width="240" height="240"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="RPj-XN-h33"/>
+                                    <constraint firstAttribute="width" secondItem="uSG-3E-ql1" secondAttribute="height" id="S9B-Lh-55Y"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="uSG-3E-ql1" firstAttribute="centerY" secondItem="9ft-tc-NZN" secondAttribute="centerY" id="1Dp-Ky-0Xo"/>
+                            <constraint firstItem="uSG-3E-ql1" firstAttribute="centerX" secondItem="9ft-tc-NZN" secondAttribute="centerX" id="Aei-B5-tBe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WgC-5s-Lfz"/>
+                    </view>
+                    <connections>
+                        <outlet property="gameView" destination="uSG-3E-ql1" id="CBN-3b-Uj5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gax-eI-ZfU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
