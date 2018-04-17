@@ -10,4 +10,6 @@
 
 @interface XQLGamingViewController : UIViewController
 
+@property (nonatomic,assign) NSInteger timeCount;
+
 @end

@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  ColorsGame
+//
+//  Created by TimeMachine on 2018/4/11.
+//  Copyright © 2018年 TimeMachine. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#define LGScreenWidth [UIScreen mainScreen].bounds.size.width
+#define LGScreenHeight [UIScreen mainScreen].bounds.size.height
+#define screenSize [UIScreen mainScreen].bounds.size
+#define lineSpace 25
+#define LGRGBColor(r, g, b) LGRGBColorAlpha(r, g, b, 1.0)
+#define LGRGBColorAlpha(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+#define bestScore30  @"bestScore_30"
+#define bestScore60  @"bestScore_60"
+
+
+
+#import "MyButton.h"
+#import "UIImage+color.h"
+#import "LGWebViewController.h"
+#import "XQLPlaySound.h"
+#import "UIView+frame.h"
+
+
+#endif /* PrefixHeader_pch */

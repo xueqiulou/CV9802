@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0682E9E98F9E906EA932A664 /* libPods-ColorsGame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 342D62CE58731EAE53002B34 /* libPods-ColorsGame.a */; };
+		E118B8B820807C6B00D7664A /* XQLPlaySound.m in Sources */ = {isa = PBXBuildFile; fileRef = E118B8B720807C6B00D7664A /* XQLPlaySound.m */; };
+		E118B8BA20807FEB00D7664A /* victory.wav in Resources */ = {isa = PBXBuildFile; fileRef = E118B8B920807FEA00D7664A /* victory.wav */; };
+		E118B8BC208081DA00D7664A /* failure.wav in Resources */ = {isa = PBXBuildFile; fileRef = E118B8BB208081DA00D7664A /* failure.wav */; };
+		E118B8BF2080832200D7664A /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = E118B8BE2080832100D7664A /* UIView+frame.m */; };
+		E1282F6D207F41880067B6B7 /* NetWorkStatusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E1282F69207F41880067B6B7 /* NetWorkStatusManager.m */; };
+		E1282F6E207F41880067B6B7 /* LGReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E1282F6A207F41880067B6B7 /* LGReachability.m */; };
+		E1282F6F207F41880067B6B7 /* LGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1282F6C207F41880067B6B7 /* LGWebViewController.m */; };
+		E1282F74207F41A20067B6B7 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E1282F70207F41A20067B6B7 /* MyButton.m */; };
+		E1282F75207F41A20067B6B7 /* QLHudView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1282F72207F41A20067B6B7 /* QLHudView.m */; };
+		E1282F78207F41E20067B6B7 /* DMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1282F77207F41E20067B6B7 /* DMAlertView.m */; };
+		E1282FCE207F421F0067B6B7 /* closer.png in Resources */ = {isa = PBXBuildFile; fileRef = E1282F9A207F421F0067B6B7 /* closer.png */; };
+		E1282FD3207F421F0067B6B7 /* backStep.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E1282F9F207F421F0067B6B7 /* backStep.jpeg */; };
+		E1282FD5207F421F0067B6B7 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = E1282FA1207F421F0067B6B7 /* next.png */; };
+		E1282FD6207F421F0067B6B7 /* jiantou.png in Resources */ = {isa = PBXBuildFile; fileRef = E1282FA2207F421F0067B6B7 /* jiantou.png */; };
+		E1282FD9207F421F0067B6B7 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = E1282FA5207F421F0067B6B7 /* back.png */; };
+		E1282FDB207F421F0067B6B7 /* combine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1282FA8207F421F0067B6B7 /* combine.mp3 */; };
+		E1282FDC207F421F0067B6B7 /* background-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1282FA9207F421F0067B6B7 /* background-music.mp3 */; };
+		E1282FDD207F421F0067B6B7 /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1282FAA207F421F0067B6B7 /* success.mp3 */; };
+		E1282FDE207F421F0067B6B7 /* reset.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1282FAB207F421F0067B6B7 /* reset.mp3 */; };
+		E1282FDF207F421F0067B6B7 /* background-music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E1282FAC207F421F0067B6B7 /* background-music.m4a */; };
+		E1282FE0207F421F0067B6B7 /* card.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1282FAD207F421F0067B6B7 /* card.mp3 */; };
+		E1282FE1207F421F0067B6B7 /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1282FAE207F421F0067B6B7 /* wrong.mp3 */; };
+		E1282FE2207F421F0067B6B7 /* btn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1282FAF207F421F0067B6B7 /* btn.mp3 */; };
+		E1282FE5207F42D50067B6B7 /* UIImage+color.m in Sources */ = {isa = PBXBuildFile; fileRef = E1282FE4207F42D40067B6B7 /* UIImage+color.m */; };
 		E158FF36207C9560008C37EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E158FF35207C9560008C37EA /* AppDelegate.m */; };
 		E158FF39207C9560008C37EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E158FF38207C9560008C37EA /* ViewController.m */; };
 		E158FF3C207C9560008C37EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E158FF3A207C9560008C37EA /* Main.storyboard */; };
@@ -36,6 +61,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		342D62CE58731EAE53002B34 /* libPods-ColorsGame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorsGame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F5501CAF509E43C79BAA7E8 /* Pods-ColorsGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorsGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorsGame/Pods-ColorsGame.release.xcconfig"; sourceTree = "<group>"; };
+		D4C252AEEB4E9CE335EEA5B6 /* Pods-ColorsGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorsGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorsGame/Pods-ColorsGame.debug.xcconfig"; sourceTree = "<group>"; };
+		E118B8B620807C6B00D7664A /* XQLPlaySound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XQLPlaySound.h; sourceTree = "<group>"; };
+		E118B8B720807C6B00D7664A /* XQLPlaySound.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XQLPlaySound.m; sourceTree = "<group>"; };
+		E118B8B920807FEA00D7664A /* victory.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = victory.wav; sourceTree = "<group>"; };
+		E118B8BB208081DA00D7664A /* failure.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = failure.wav; sourceTree = "<group>"; };
+		E118B8BD2080832100D7664A /* UIView+frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
+		E118B8BE2080832100D7664A /* UIView+frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
+		E118B8C02080A35D00D7664A /* ColorsGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ColorsGame.entitlements; sourceTree = "<group>"; };
+		E1282F67207F41880067B6B7 /* LGReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGReachability.h; sourceTree = "<group>"; };
+		E1282F68207F41880067B6B7 /* LGWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGWebViewController.h; sourceTree = "<group>"; };
+		E1282F69207F41880067B6B7 /* NetWorkStatusManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkStatusManager.m; sourceTree = "<group>"; };
+		E1282F6A207F41880067B6B7 /* LGReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGReachability.m; sourceTree = "<group>"; };
+		E1282F6B207F41880067B6B7 /* NetWorkStatusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkStatusManager.h; sourceTree = "<group>"; };
+		E1282F6C207F41880067B6B7 /* LGWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGWebViewController.m; sourceTree = "<group>"; };
+		E1282F70207F41A20067B6B7 /* MyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
+		E1282F71207F41A20067B6B7 /* QLHudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLHudView.h; sourceTree = "<group>"; };
+		E1282F72207F41A20067B6B7 /* QLHudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLHudView.m; sourceTree = "<group>"; };
+		E1282F73207F41A20067B6B7 /* MyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
+		E1282F76207F41E20067B6B7 /* DMAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMAlertView.h; sourceTree = "<group>"; };
+		E1282F77207F41E20067B6B7 /* DMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMAlertView.m; sourceTree = "<group>"; };
+		E1282F9A207F421F0067B6B7 /* closer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closer.png; sourceTree = "<group>"; };
+		E1282F9F207F421F0067B6B7 /* backStep.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backStep.jpeg; sourceTree = "<group>"; };
+		E1282FA1207F421F0067B6B7 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		E1282FA2207F421F0067B6B7 /* jiantou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jiantou.png; sourceTree = "<group>"; };
+		E1282FA5207F421F0067B6B7 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		E1282FA8207F421F0067B6B7 /* combine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = combine.mp3; sourceTree = "<group>"; };
+		E1282FA9207F421F0067B6B7 /* background-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "background-music.mp3"; sourceTree = "<group>"; };
+		E1282FAA207F421F0067B6B7 /* success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = success.mp3; sourceTree = "<group>"; };
+		E1282FAB207F421F0067B6B7 /* reset.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = reset.mp3; sourceTree = "<group>"; };
+		E1282FAC207F421F0067B6B7 /* background-music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music.m4a"; sourceTree = "<group>"; };
+		E1282FAD207F421F0067B6B7 /* card.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = card.mp3; sourceTree = "<group>"; };
+		E1282FAE207F421F0067B6B7 /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong.mp3; sourceTree = "<group>"; };
+		E1282FAF207F421F0067B6B7 /* btn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = btn.mp3; sourceTree = "<group>"; };
+		E1282FE3207F42D40067B6B7 /* UIImage+color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+color.h"; sourceTree = "<group>"; };
+		E1282FE4207F42D40067B6B7 /* UIImage+color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+color.m"; sourceTree = "<group>"; };
 		E158FF31207C9560008C37EA /* ColorsGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorsGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E158FF34207C9560008C37EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E158FF35207C9560008C37EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,6 +114,7 @@
 		E158FF54207C9560008C37EA /* ColorsGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorsGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E158FF58207C9560008C37EA /* ColorsGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorsGameUITests.m; sourceTree = "<group>"; };
 		E158FF5A207C9560008C37EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E19EEA85207E121500DE24A6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		E1AF5493207CC64E00AEDC20 /* XQLGamingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XQLGamingViewController.h; sourceTree = "<group>"; };
 		E1AF5494207CC64E00AEDC20 /* XQLGamingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XQLGamingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0682E9E98F9E906EA932A664 /* libPods-ColorsGame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +145,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61D580C4F1892E8C15140860 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				342D62CE58731EAE53002B34 /* libPods-ColorsGame.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D009A71DF00E2FC3B28D2E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4C252AEEB4E9CE335EEA5B6 /* Pods-ColorsGame.debug.xcconfig */,
+				3F5501CAF509E43C79BAA7E8 /* Pods-ColorsGame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1282F66207F41880067B6B7 /* ChangeShowClass */ = {
+			isa = PBXGroup;
+			children = (
+				E118B8BD2080832100D7664A /* UIView+frame.h */,
+				E118B8BE2080832100D7664A /* UIView+frame.m */,
+				E1282FE3207F42D40067B6B7 /* UIImage+color.h */,
+				E1282FE4207F42D40067B6B7 /* UIImage+color.m */,
+				E1282F76207F41E20067B6B7 /* DMAlertView.h */,
+				E1282F77207F41E20067B6B7 /* DMAlertView.m */,
+				E1282F73207F41A20067B6B7 /* MyButton.h */,
+				E1282F70207F41A20067B6B7 /* MyButton.m */,
+				E1282F71207F41A20067B6B7 /* QLHudView.h */,
+				E1282F72207F41A20067B6B7 /* QLHudView.m */,
+				E1282F67207F41880067B6B7 /* LGReachability.h */,
+				E1282F68207F41880067B6B7 /* LGWebViewController.h */,
+				E1282F69207F41880067B6B7 /* NetWorkStatusManager.m */,
+				E1282F6A207F41880067B6B7 /* LGReachability.m */,
+				E1282F6B207F41880067B6B7 /* NetWorkStatusManager.h */,
+				E1282F6C207F41880067B6B7 /* LGWebViewController.m */,
+				E118B8B620807C6B00D7664A /* XQLPlaySound.h */,
+				E118B8B720807C6B00D7664A /* XQLPlaySound.m */,
+			);
+			path = ChangeShowClass;
+			sourceTree = "<group>";
+		};
+		E1282F79207F421F0067B6B7 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				E1282F95207F421F0067B6B7 /* Texture */,
+				E1282FA7207F421F0067B6B7 /* sound */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		E1282F95207F421F0067B6B7 /* Texture */ = {
+			isa = PBXGroup;
+			children = (
+				E1282F9A207F421F0067B6B7 /* closer.png */,
+				E1282F9F207F421F0067B6B7 /* backStep.jpeg */,
+				E1282FA1207F421F0067B6B7 /* next.png */,
+				E1282FA2207F421F0067B6B7 /* jiantou.png */,
+				E1282FA5207F421F0067B6B7 /* back.png */,
+			);
+			path = Texture;
+			sourceTree = "<group>";
+		};
+		E1282FA7207F421F0067B6B7 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				E118B8B920807FEA00D7664A /* victory.wav */,
+				E1282FA8207F421F0067B6B7 /* combine.mp3 */,
+				E1282FA9207F421F0067B6B7 /* background-music.mp3 */,
+				E1282FAA207F421F0067B6B7 /* success.mp3 */,
+				E1282FAB207F421F0067B6B7 /* reset.mp3 */,
+				E1282FAC207F421F0067B6B7 /* background-music.m4a */,
+				E1282FAD207F421F0067B6B7 /* card.mp3 */,
+				E1282FAE207F421F0067B6B7 /* wrong.mp3 */,
+				E1282FAF207F421F0067B6B7 /* btn.mp3 */,
+				E118B8BB208081DA00D7664A /* failure.wav */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
 		E158FF28207C9560008C37EA = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +232,8 @@
 				E158FF4C207C9560008C37EA /* ColorsGameTests */,
 				E158FF57207C9560008C37EA /* ColorsGameUITests */,
 				E158FF32207C9560008C37EA /* Products */,
+				8D009A71DF00E2FC3B28D2E9 /* Pods */,
+				61D580C4F1892E8C15140860 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +250,9 @@
 		E158FF33207C9560008C37EA /* ColorsGame */ = {
 			isa = PBXGroup;
 			children = (
+				E118B8C02080A35D00D7664A /* ColorsGame.entitlements */,
+				E1282F79207F421F0067B6B7 /* source */,
+				E1282F66207F41880067B6B7 /* ChangeShowClass */,
 				E158FF34207C9560008C37EA /* AppDelegate.h */,
 				E158FF35207C9560008C37EA /* AppDelegate.m */,
 				E158FF37207C9560008C37EA /* ViewController.h */,
@@ -115,6 +264,7 @@
 				E158FF3F207C9560008C37EA /* LaunchScreen.storyboard */,
 				E158FF42207C9560008C37EA /* Info.plist */,
 				E158FF43207C9560008C37EA /* main.m */,
+				E19EEA85207E121500DE24A6 /* PrefixHeader.pch */,
 			);
 			path = ColorsGame;
 			sourceTree = "<group>";
@@ -144,9 +294,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E158FF5D207C9560008C37EA /* Build configuration list for PBXNativeTarget "ColorsGame" */;
 			buildPhases = (
+				3A51DC2F6DFE3F09C5616257 /* [CP] Check Pods Manifest.lock */,
 				E158FF2D207C9560008C37EA /* Sources */,
 				E158FF2E207C9560008C37EA /* Frameworks */,
 				E158FF2F207C9560008C37EA /* Resources */,
+				51C7B429F7223AF379E8167D /* [CP] Embed Pods Frameworks */,
+				2A0D162E586723C1DDBB7D7E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,6 +359,11 @@
 					E158FF30207C9560008C37EA = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					E158FF48207C9560008C37EA = {
 						CreatedOnToolsVersion = 9.1;
@@ -245,8 +403,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				E158FF41207C9560008C37EA /* LaunchScreen.storyboard in Resources */,
+				E118B8BC208081DA00D7664A /* failure.wav in Resources */,
+				E1282FCE207F421F0067B6B7 /* closer.png in Resources */,
+				E1282FDE207F421F0067B6B7 /* reset.mp3 in Resources */,
+				E1282FD3207F421F0067B6B7 /* backStep.jpeg in Resources */,
+				E1282FDD207F421F0067B6B7 /* success.mp3 in Resources */,
+				E1282FD9207F421F0067B6B7 /* back.png in Resources */,
+				E1282FDF207F421F0067B6B7 /* background-music.m4a in Resources */,
+				E1282FDC207F421F0067B6B7 /* background-music.mp3 in Resources */,
 				E158FF3E207C9560008C37EA /* Assets.xcassets in Resources */,
+				E1282FE2207F421F0067B6B7 /* btn.mp3 in Resources */,
+				E1282FE1207F421F0067B6B7 /* wrong.mp3 in Resources */,
 				E158FF3C207C9560008C37EA /* Main.storyboard in Resources */,
+				E1282FD6207F421F0067B6B7 /* jiantou.png in Resources */,
+				E118B8BA20807FEB00D7664A /* victory.wav in Resources */,
+				E1282FD5207F421F0067B6B7 /* next.png in Resources */,
+				E1282FDB207F421F0067B6B7 /* combine.mp3 in Resources */,
+				E1282FE0207F421F0067B6B7 /* card.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,15 +439,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A0D162E586723C1DDBB7D7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ColorsGame/Pods-ColorsGame-resources.sh",
+				"${PODS_ROOT}/AVOSCloud/AVOS/AVOSCloud/AVOSCloud_Art.inc",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorsGame/Pods-ColorsGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A51DC2F6DFE3F09C5616257 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ColorsGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51C7B429F7223AF379E8167D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorsGame/Pods-ColorsGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E158FF2D207C9560008C37EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E158FF39207C9560008C37EA /* ViewController.m in Sources */,
+				E1282F75207F41A20067B6B7 /* QLHudView.m in Sources */,
+				E1282F6E207F41880067B6B7 /* LGReachability.m in Sources */,
 				E158FF44207C9560008C37EA /* main.m in Sources */,
 				E158FF36207C9560008C37EA /* AppDelegate.m in Sources */,
+				E1282FE5207F42D50067B6B7 /* UIImage+color.m in Sources */,
+				E1282F6D207F41880067B6B7 /* NetWorkStatusManager.m in Sources */,
+				E1282F78207F41E20067B6B7 /* DMAlertView.m in Sources */,
+				E1282F6F207F41880067B6B7 /* LGWebViewController.m in Sources */,
+				E118B8B820807C6B00D7664A /* XQLPlaySound.m in Sources */,
+				E118B8BF2080832200D7664A /* UIView+frame.m in Sources */,
 				E1AF5495207CC64E00AEDC20 /* XQLGamingViewController.m in Sources */,
+				E1282F74207F41A20067B6B7 /* MyButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,27 +671,97 @@
 		};
 		E158FF5E207C9560008C37EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C252AEEB4E9CE335EEA5B6 /* Pods-ColorsGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ColorsGame/ColorsGame.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michael  Catarina (QCHVNPL2CR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RYDP9J2RHH;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = /Users/timemachine/WorkSpace/ColorsGame/ColorsGame/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"LLVMID=$(PRODUCT_BUNDLE_IDENTIFIER)",
+					"COCOAPODS=1",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.obfuscator9._0;
 				INFOPLIST_FILE = ColorsGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xueqiulou.ColorsGame;
+				OTHER_CFLAGS = (
+					"-mllvm",
+					"-gfla",
+					"-mllvm",
+					"-split",
+					"-mllvm",
+					"-split_num=2",
+					"-mllvm",
+					"-sub",
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/AVOSCloud\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/JCore\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/JPush\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.98vv.cc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E158FF5F207C9560008C37EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F5501CAF509E43C79BAA7E8 /* Pods-ColorsGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ColorsGame/ColorsGame.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michael  Catarina (QCHVNPL2CR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RYDP9J2RHH;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = /Users/timemachine/WorkSpace/ColorsGame/ColorsGame/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"LLVMID=$(PRODUCT_BUNDLE_IDENTIFIER)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.obfuscator9._0;
 				INFOPLIST_FILE = ColorsGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xueqiulou.ColorsGame;
+				OTHER_CFLAGS = (
+					"-mllvm",
+					"-gfla",
+					"-mllvm",
+					"-split",
+					"-mllvm",
+					"-split_num=2",
+					"-mllvm",
+					"-sub",
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/AVOSCloud\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/JCore\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/JPush\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.98vv.cc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
